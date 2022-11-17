@@ -1,0 +1,222 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.header{
+    width:100%;
+    height:70px;
+    background-color:#27aafc;
+    display:flex;
+    justify-content:center;
+}
+
+.header-container{
+    width:80%;
+    height:70px;
+   /* background-color:red;*/
+    display:flex;
+    justify-content:space-between;
+}
+.logo{
+    width:15%;
+    height:70px;
+   /* background-color:yellow;*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-family:segoe UI;
+}
+.nav{
+    width:25%;
+    height:70px;
+   /* background-color:blue;*/
+    display:flex;
+    align-items:center;
+}
+.nav-links{
+    width:100%;
+    display:flex;
+    list-style-type:none;
+    /*color: white;*/
+    justify-content:space-between;
+   /* font-size:18px;*/
+    font-family:segoe UI;
+}
+
+.nav-items{
+    cursor:pointer;
+}
+
+/* banner css */
+.banner{
+    width:100%;
+    height:600px;
+    background-color:#ffffff;
+    /* background-color:grey; */
+    overflow:hidden;
+    display:flex;
+}
+.banner-details{
+    width:50%;
+    height:700px;
+   /* background-color:grey; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.banner-text{
+    width:70%;
+    height:500px;
+    /* background-color:white; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    row-gap:10px;
+
+}
+
+.banner-title{
+    font-size:70px;
+    font-family:segoe UI;
+    text-transform:uppercase;
+    font-weight:400;
+}
+
+.highlight{
+    width:60%;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:segoe UI;
+    border:15px solid #27aafc;
+    font-size:100px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#27aafc;
+
+}
+/* branding section css */
+.branding{
+    width:100%;
+    /* height:800px; */
+    /* background-color:red; */
+    padding:50px 10%;
+    display:flex;
+    column-gap:1%;
+}
+.branding-1{
+    width:33%;
+    height:600px;
+    background-color:white;
+    background-image:url('him.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding :100px 5%;
+    display:flex;
+    align-items:flex-end;
+    font-size:30px;
+    font-weight:bold;
+    font-family:segoe UI;
+    color:white;
+    justify-content:center;
+    text-transform:uppercase;
+    
+}
+.branding-2{
+    width:32%;
+    height:600px;
+    background-color:grey;
+    background-image:url('her.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 50px 5%;
+    padding :100px 5%;
+    display:flex;
+    align-items:flex-end;
+    font-size:30px;
+    font-weight:bold;
+    font-family:segoe UI;
+    color:white;
+    justify-content:center;
+    text-transform:uppercase;
+    
+}
+
+.branding-3{
+    width:32%;
+    height:600px;
+    background-color:#b81a1a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0 5%;
+    font-size:40px;
+    font-family:segoe UI;
+}
+
+.brand-title{
+    background-color:gray;
+    padding:20px;
+}
+.products{
+    width:100%;
+    height:600px;
+    background-color:#ffffff;
+    padding:50px 10%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.product{
+    /* height:500px; */
+    padding-bottom:10px;
+    width:20%;
+    background-color:yellow;
+    
+
+
+}
+.product-img{
+    height:250px;
+    width:100%;
+    background-color:blue;
+    overflow:hidden;
+}
+.pro-img{
+    width:100%;
+}
+.product-details{
+    padding:10px;
+    font-family:segoe UI;
+    display:flex;
+    flex-direction:column;
+    row-gap:5px;
+}
+
+.btn-1{
+    padding:5px 5px;
+    background-color:#27aafc;
+    border:none;
+    color:white;
+    text-transform:uppercase;
+    border-radius:5px;
+}
+
+.btn-2{
+    padding:5px 5px;
+    background-color: #b81a1a;
+    border:none;
+    color:white;
+    text-transform:uppercase;
+
+
+}
+
